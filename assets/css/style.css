@@ -9,19 +9,20 @@ body {
 
 }
 
-#Name {
+#header {
+    width: 1000px;
+    background-color: #ffffff;
     float: left;
     font-size: 36px;
     padding: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 
 }
 
-div {
+#Links {
     display: inline-flex;
     float: right;
     background-color: #ffffff;
