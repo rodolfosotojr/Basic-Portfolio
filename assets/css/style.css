@@ -1,33 +1,45 @@
 * {
     margin: 0 auto;
     padding: 0;
+
 }
 
 body {
-    width: 960px;
-    background-image: url('../images/grey/grey.png');
+    background-image: url('../images/grey/grey_@2X.png');
+    background-size: 
+
+
 
 }
 
-#header {
-    width: 1000px;
+.section {
+    width: 100%;
     background-color: #ffffff;
-    float: left;
-    font-size: 36px;
-    padding: 20px;
-    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 17px;
+    height: 65px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+}
 
+#Name {
+    background-color: #4aaaa5;
+    width: fit-content;
+    padding: 35px;
+    font-size: 30px;
+    margin-left: 267px;
+    margin-top: -22px;
+    display: inline-flex;
 }
 
 #Links {
     display: inline-flex;
     float: right;
     background-color: #ffffff;
-    margin-left: auto;
-    
+    margin-right: 293px;
+    margin-top: 27px;
+    font-size: 13px;
 }
 
 .About {
@@ -60,6 +72,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     
+}
+
+.About-Me {
+    width: 960px;
+    padding: 50px;
 }
 
 img {
