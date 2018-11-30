@@ -6,9 +6,6 @@
 
 body {
     background-image: url('../images/grey/grey_@2X.png');
-    background-size: 
-
-
 
 }
 
@@ -21,6 +18,7 @@ body {
     height: 65px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 #Name {
@@ -31,6 +29,7 @@ body {
     margin-left: 267px;
     margin-top: -22px;
     display: inline-flex;
+
 }
 
 #Links {
@@ -94,3 +93,11 @@ p {
     padding: 20px;
     color: #777777;
 }
+
+/* This section is for my contact.html file */
+
+.Contact-Page {
+    width: 960px;
+    padding: 50px;
+}
+
